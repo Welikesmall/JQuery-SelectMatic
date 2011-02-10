@@ -1,0 +1,6 @@
+A simple jQuery plugin (tested with 1.4), that will allow you to give your <ul>
+elements <select> like functionality.
+
+Currently supports executing a JavaScript function on item click.
+
+TODO: Examples.
