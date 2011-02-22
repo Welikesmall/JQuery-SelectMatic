@@ -1,0 +1,46 @@
+/* Make select stuff */
+
+.makeSelect
+{
+    position: absolute;
+    z-index: 3;
+    width: 120px;
+    background: #4d4846;
+    font-weight: bolder;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.makeSelect li
+{
+    list-style-type:none; 
+    padding: 7px;
+    color: #eee;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    text-align: left;
+}
+
+.makeSelect li.default
+{
+    color: #fff;
+}
+
+.makeSelect li.selected
+{
+    color: #aaa;
+}
+
+.makeSelect li:hover
+{
+    color: #fff;
+}
+
+.makeSelect li.selected, .makeSelect li.default
+{
+    background: url(drop_arrow.png) center right no-repeat;
+}
